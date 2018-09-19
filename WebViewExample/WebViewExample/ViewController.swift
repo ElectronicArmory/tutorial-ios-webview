@@ -28,7 +28,7 @@ class ViewController: UIViewController, UITextFieldDelegate, WKNavigationDelegat
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear( animated )
         
-        let urlString:String = "https://www.apple.com"
+        let urlString:String = "https://www.ElectronicArmory.com"
         let url:URL = URL(string: urlString)!
         let urlRequest:URLRequest = URLRequest(url: url)
         webView.load(urlRequest)
